@@ -1,15 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>Penguin Shoes Fashion</title>
+   <!-- FONT LINK -->
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="css/all.css">
    <link rel="stylesheet" href="css/bootstrap.min.css">
    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-   <h1>Hello JS</h1>
-   
+   <header class="pb-5">
+      <div class="container">
+         <!-- NAVIGATION START -->
+         <nav class="navbar navbar-expand-lg py-4">
+            <div class="container-fluid">
+               <a class="navbar-brand" href="#">
+                  <img width="350" class="img-fluid" src="logo&icons/Logo.png" alt="">
+               </a>
+               <button class="navbar-toggler collapse-btn" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                  aria-label="Toggle navigation">
+                  <i class="fas fa-bars"></i>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ms-auto menu-items">
+                     <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                     </li>
+                     <li class="nav-item ms-lg-3">
+                        <a class="nav-link ms-lg-3" href="#">Product</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link ms-lg-3" href="#">About us</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link  ms-lg-3" href="#">Contact us</a>
+                     </li>
+                  </ul>
+               </div>
+            </div>
+            <!-- NAVIGATION EnD -->
+         </nav>
+      </div>
+      <!-- NIKE REACT BANNER START -->
+      <section class="top-banner">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-6 col-lg-5 mt-5 order-md-last">
+                  <h1 class="top-title-1 mt-3">NIKE REACT</h1>
+                  <h1 class="top-title-2">INFINITY RUN 2</h1>
+                  <P>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</P>
+                  <button class="buy-btn top-btn btn"><img width="22" class="me-2" src="logo&icons/shopping-cart 1.png"
+                        alt="">BUY NOW</button>
+               </div>
+               <div class="col-md-6 col-lg-7">
+                  <img class="w-75" src="images/top-banner.png" alt="">
+               </div>
+            </div>
+         </div>
+         <!-- NIKE REACT END -->
+      </section>
+   </header>
+   <!-- MAIN CONTENT START -->
+   <main class="container">
+      <!-- CASUAL SHOES START -->
+      <section class="py-5">
+         <h1 class="section-title">CASUAL SHOES</h1>
+         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
+            <div class="col">
+               <div class="card h-100 p-4 border-0 my-card">
+                  <div class="card-img bg-light m-auto">
+                     <img src="images/casual-1.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                     <h3 class="card-title">Nike Shoe</h3>
+                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between bg-white border-0 align-items-center">
+                     <h1 class="card-price">$220</h1>
+                     <button class="buy-btn btn"><img width="22" class="me-2" src="logo&icons/shopping-cart 1.png"
+                           alt="">BUY NOW</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100 p-4 border-0 my-card">
+                  <div class="card-img bg-light m-auto">
+                     <img src="images/casual-2.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                     <h3 class="card-title">Sneakers Skate Shoe </h3>
+                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between bg-white border-0">
+                     <h1 class="card-price">$320</h1>
+                     <button class="buy-btn btn"><img width="22" class="me-2" src="logo&icons/shopping-cart 1.png"
+                           alt="">BUY NOW</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100 p-4 border-0 my-card">
+                  <div class="card-img bg-light m-auto">
+                     <img src="images/casual-3.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                     <h3 class="card-title">Sneakers Basketball shoe</h3>
+                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between bg-white border-0">
+                     <h1 class="card-price">$280</h1>
+                     <button class="buy-btn btn"><img width="22" class="me-2" src="logo&icons/shopping-cart 1.png"
+                           alt="">BUY NOW</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- CASUAL SHOES END -->
+
+      <!-- FORMAL SHOES START -->
+      <section class="py-5">
+         <h1 class="text-uppercase section-title">Formal shoes</h1>
+         <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
+            <div class="col">
+               <div class="card h-100 p-4 border-0 my-card">
+                  <div class="card-img bg-light m-auto">
+                     <img src="images/formal-1.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                     <h3 class="card-title">Prestige High-Cut Leather </h3>
+                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between bg-white border-0 align-items-center">
+                     <h1 class="card-price">$220</h1>
+                     <button class="buy-btn btn"><img width="22" class="me-2" src="logo&icons/shopping-cart 1.png"
+                           alt="">BUY NOW</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100 p-4 border-0 my-card">
+                  <div class="card-img bg-light m-auto">
+                     <img src="images/formal-2.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                     <h3 class="card-title">Sneakers Skate Shoe </h3>
+                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between bg-white border-0">
+                     <h1 class="card-price">$320</h1>
+                     <button class="buy-btn btn"><img width="22" class="me-2" src="logo&icons/shopping-cart 1.png"
+                           alt="">BUY NOW</button>
+                  </div>
+               </div>
+            </div>
+            <div class="col">
+               <div class="card h-100 p-4 border-0 my-card">
+                  <div class="card-img bg-light m-auto">
+                     <img src="images/formal-3.png" class="card-img-top img-fluid" alt="...">
+                  </div>
+                  <div class="card-body">
+                     <h3 class="card-title">Sneakers Basketball shoe</h3>
+                     <p class="card-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+                  </div>
+                  <div class="card-footer d-flex justify-content-between bg-white border-0">
+                     <h1 class="card-price">$280</h1>
+                     <button class="buy-btn btn"><img width="22" class="me-2" src="logo&icons/shopping-cart 1.png"
+                           alt="">BUY NOW</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- FORMAL SHOES END -->
+
+      <section class="py-5">
+         <div class="row">
+            <div class="col-md-7 col-lg-7 mt-5 order-md-last">
+               <img class="img-fluid banner-btm" src="logo&icons/banner-bottom.png" alt="">
+            </div>
+            <div class="col-md-5 col-lg-5">
+               <div class="row mt-5 gx-0 card-custom">
+                  <div class="col-md-3 align-self-center">
+                     <img class="img-fluid card-img-btm" src="logo&icons/vartical-card-1.png" alt="">
+                  </div>
+                  <div class="col-md-9 align-self-center">
+                     <h3>Find the Perfect Fit</h3>
+                     <p>Everybody is different, which is why we offer styles for every body.</p>
+                  </div>
+               </div>
+               <div class="row mt-5 gx-0 card-custom">
+                  <div class="col-md-3 align-self-center">
+                     <img class="img-fluid card-img-btm" src="logo&icons/vartical-card-2.png" alt="">
+                  </div>
+                  <div class="col-md-9 align-self-center">
+                     <h3>Free Exchanges</h3>
+                     <p>One of the many reasons you can shop with peace of mind.</p>
+                  </div>
+               </div>
+               <div class="row mt-5 gx-0 card-custom">
+                  <div class="col-md-3 align-self-center">
+                     <img class="img-fluid card-img-btm" src="logo&icons/vartical-card-3.png" alt="">
+                  </div>
+                  <div class="col-md-9 align-self-center">
+                     <h3>Contact Our Seller</h3>
+                     <p>They are here to help you. That's quite literally what we pay them for.</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <!-- FEATURED PRODUCT START -->
+      <section class="py-5">
+         <h1 class="text-uppercase section-title">FEATURED PRODUCTS</h1>
+         <div class="row mt-5 gy-4">
+            <div class="col-lg-3 col-md-6  text-center featured-shoe">
+               <h3 class="float-end pe-2 pt-2 heart"><i class="far fa-heart"></i></h3>
+               <img class="img-fluid" src="images/feature-1.jpg" alt="">
+               <h3 class="text-uppercase">Marie Claire</h3>
+               <p>Marie Claire Milla Stylish Block Heel Sandal.</p>
+               <div class="ratings">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+               </div>
+               <div class="d-flex justify-content-center pt-2">
+                  <h5 class="me-3 price-1"><del>$200</del></h5>
+                  <h5 class="text-danger">$180</h5>
+               </div>
+               <button class="buy-btn top-btn btn btn-btm"><img width="22" class="me-2"
+                     src="logo&icons/shopping-cart 1.png" alt="">BUY NOW</button>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center featured-shoe">
+               <h3 class="float-end pe-2 pt-2 heart"><i class="far fa-heart"></i></h3>
+               <img class="img-fluid" src="images/feature-2.jpg" alt="">
+               <h3 class="text-uppercase">Power</h3>
+               <p>Power Cric Sporty Sneaker for Men, Lorem, ipsum dolor.</p>
+               <div class="ratings">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <div class="d-flex justify-content-center pt-2">
+                  <h5 class="me-3 price-1"><del>$300</del></h5>
+                  <h5 class="text-danger">$280</h5>
+               </div>
+               <button class="buy-btn top-btn btn btn-btm"><img width="22" class="me-2"
+                     src="logo&icons/shopping-cart 1.png" alt="">BUY NOW</button>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center featured-shoe">
+               <h3 class="float-end pe-2 pt-2 heart"><i class="far fa-heart"></i></h3>
+               <img class="img-fluid" src="images/feature-3.jpg" alt="">
+               <h3 class="text-uppercase">North Star</h3>
+               <p>North Star Turbo Chunky Sneakers for Women.</p>
+               <div class="ratings">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+               </div>
+               <div class="d-flex justify-content-center pt-2">
+                  <h5 class="me-3 price-1"><del>$150</del></h5>
+                  <h5 class="text-danger">$120</h5>
+               </div>
+               <button class="buy-btn top-btn btn btn-btm"><img width="22" class="me-2"
+                     src="logo&icons/shopping-cart 1.png" alt="">BUY NOW</button>
+            </div>
+            <div class="col-lg-3 col-md-6 text-center featured-shoe">
+               <h3 class="float-end pe-2 pt-2 heart"><i class="far fa-heart"></i></h3>
+               <img class="img-fluid" src="images/feature-4.jpg" alt="">
+               <h3 class="text-uppercase">Marie Claire</h3>
+               <p>Rene Pointy Ballet Flat by Marie Claire.</p>
+               <div class="ratings">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star"></i>
+               </div>
+               <div class="d-flex justify-content-center pt-2">
+                  <h5 class="me-3 price-1"><del>$200</del></h5>
+                  <h5 class="text-danger">$180</h5>
+               </div>
+               <button class="buy-btn top-btn btn btn-btm"><img width="22" class="me-2"
+                     src="logo&icons/shopping-cart 1.png" alt="">BUY NOW</button>
+            </div>
+         </div>
+         <!-- FEATURED PRODUCT END -->
+      </section>
+   </main>
+   <!-- MAIN CONTENT END -->
    <script src="js/bootstrap.min.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,134 @@
+/* COMMON CSS */
+h1,h2,h3,h4,h5,h6{
+   font-family: 'Bebas Neue', cursive;
+}
+h1{
+   font-size: 48px;
+   color: #363958;
+}
+h3{
+   color: #363958;
+   font-size: 23px;
+   font-family: 'Roboto', sans-serif;
+}
+p{
+   color: #3E3E3E;
+}
+header{
+   background-color: #FFF9F4;
+}
+.menu-items a{
+   font-size: 28;
+   color: #3C3C3C;
+   font-family: 'Roboto', sans-serif;
+}
+
+/* MOBILE MENU BAR */
+.collapse-btn{
+   background: #fa804c;
+}
+.collapse-btn i{
+   color: black;
+   font-size: 38px;
+}
+/* MOBILE MENU BAR END */
+
+.top-title-1,.top-title-2{
+   font-size: 75px;
+   line-height: 70px;
+}
+.top-title-1{
+   color: #FA804C;
+}
+.top-title-2{
+   color: #363958;
+   font-size: 73px
+}
+
+/* BUY BUTTON */
+.buy-btn{
+   background: linear-gradient(#3D4FF3,#2136f1);
+   border-radius: 12px;
+   color: white;
+   border: none;
+   font-family: 'Roboto', sans-serif;
+   height: 55px;
+   width: 140px;
+}
+.top-btn{
+   width: 170px;
+   height: 60px;
+}
+.buy-btn:hover{
+   color: white;
+}
+.my-card{
+   border-radius: 25px;
+   box-shadow: 0px 0px 50px #f8f9fa;
+}
+.card-img{
+   height: 100%;
+   border-radius: 35px;
+   overflow: hidden;
+}
+.card-price{
+   color: #FA804C;
+   font-size: 42px;;
+}
+.card-custom{
+   border-radius: 15px;
+   box-shadow: 0px 5px 5px 2px #f8f9fa;
+}
+.banner-btm{
+   width: 90%;
+}
+.card-img-btm{
+   width: 80px;
+}
+
+/* FEATURED PRODUCT START */
+.featured-shoe{
+   box-shadow: 5px 5px 10px lightgrey;
+   padding: 10px;
+   border-radius: 15px;
+   transition: transform 1s;
+}
+.featured-shoe:hover{
+   transform: scale(.9);
+}
+.btn-btm{
+   margin-bottom: 20px;
+}
+.ratings i{
+   color: lightgray;
+}
+.price-1,.heart{
+   color: #969696;
+}
+.heart{
+   cursor: pointer;
+}
+/* FEATURED PRODUCT END */
+
+@media (min-width: 922px){
+
+}
+@media (max-width: 768px){
+   .card-img-btm {
+      width: 62px;
+   }
+}
+@media (max-width: 576px){
+   .section-title {
+      text-align: center;
+      font-size: 65px;
+   }
+   .card-img-btm {
+      width: 85px;
+      display: block;
+      margin: auto;
+   }
+   .card-custom {
+      text-align: center;
+   }
+}
